@@ -7,7 +7,7 @@
 body {
   font-family: 'Muli', sans-serif;
   overflow: hidden;
-  margin: 0;
+  margin: 10;
   background: #111;
   height: 100vh;
   display: flex;
@@ -20,7 +20,7 @@ body {
     padding: 0 20px;
 }
 .slide {
-    height: 80vh;
+    height: 50vh;
     border-radius: 20px;
     margin: 10px;
     cursor: pointer; /* курсор пальчик*/
@@ -34,7 +34,7 @@ body {
 }
 .slide h3{      /* тут почему-то названия упали вниз и в кучу??*/
     position: absolute;
-    font-size: 24px;
+    font-size: 14px;
     bottom: 20px; /* тут вручную поднял и сдвинул надпись line 36, 37*/
     left: 20px;
     margin: 0;
